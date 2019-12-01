@@ -12,7 +12,6 @@ public class Client implements buyCoffee {
             System.out.println("You're poor! You suck!");
         }
          machine.giveChange(coffee);
-        System.out.println(machine.change);
     }
 
 

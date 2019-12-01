@@ -12,7 +12,7 @@ public class Machine implements GiveChange {
         double puttedMoney = scanner.nextDouble();
         change = puttedMoney - coffee.getPrice();
 
-        for (int i = 0; ((i < NOMINALY.length) && (puttedMoney > 0.00)); i++) {
+        for (int i = 0; ((i < NOMINALY.length) && (change > 0.00)); i++) {
             if (change >= NOMINALY[i]) {
                 int temp = (int) Math.floor(change / NOMINALY[i]);
                 wynik += NOMINALY[i] + " PLN x " + temp + "\n";
