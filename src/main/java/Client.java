@@ -7,11 +7,10 @@ public class Client implements buyCoffee {
             coffee.setAmount(coffee.getAmount() - 1);
             setWallet(getWallet() - coffee.getPrice());
             System.out.println("Client bought: " + coffee.getName());
-            machine.giveChange(coffee);
+
         } else {
             System.out.println("You're poor! You suck!");
         }
-         machine.giveChange(coffee);
     }
 
 
