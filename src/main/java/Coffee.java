@@ -49,7 +49,8 @@ public class Coffee {
         return amount;
     }
 
-    public void setAmount(int amount) {
+    public int setAmount(int amount) {
         this.amount = amount;
+        return amount;
     }
 }

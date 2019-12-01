@@ -1,3 +1,3 @@
 public interface buyCoffee {
-      double buyCoffee(Coffee coffee);
+      void buyCoffee(Machine machine, Coffee coffee);
 }
