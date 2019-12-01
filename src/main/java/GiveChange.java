@@ -1,3 +1,3 @@
 public interface GiveChange {
-    void giveChange();
+    void giveChange(Coffee coffee);
 }

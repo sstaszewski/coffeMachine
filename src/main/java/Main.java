@@ -23,19 +23,19 @@ public class Main {
         switch (choosenOption) {
             case (1):
                 client1.buyCoffee(machine,sWCoffee);
-                machine.giveChange();
+                machine.giveChange(sWCoffee);
                 break;
             case (2):
                 client1.buyCoffee(machine, bWCoffee);
-                machine.giveChange();
+                machine.giveChange(bWCoffee);
                 break;
             case (3):
                 client1.buyCoffee(machine, sBCoffee);
-                machine.giveChange();
+                machine.giveChange(sBCoffee);
                 break;
             case (4):
                 client1.buyCoffee(machine, bBCoffee);
-                machine.giveChange();
+                machine.giveChange(bBCoffee);
                 break;
             default:
                 System.out.println("you choose poorly");

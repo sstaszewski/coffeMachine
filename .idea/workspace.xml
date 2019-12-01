@@ -2,20 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99b6403c-5973-45e3-ae9a-468878d30de7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Coffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Coffee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GiveChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GiveChange.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Machine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Machine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Worker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/buyCoffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/buyCoffee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Coffee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Coffee.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Machine.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Machine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Worker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Worker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/buyCoffee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/buyCoffee.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
