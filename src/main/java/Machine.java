@@ -11,15 +11,20 @@ public class Machine implements GiveChange {
         Scanner scanner = new Scanner(System.in);
         double puttedMoney = scanner.nextDouble();
         change = puttedMoney - coffee.getPrice();
-
-        for (int i = 0; ((i < NOMINALY.length) && (change > 0.00)); i++) {
-            if (change >= NOMINALY[i]) {
-                int temp = (int) Math.floor(change / NOMINALY[i]);
-                wynik += NOMINALY[i] + " PLN x " + temp + "\n";
-                change = (double) Math.round(100 * (change - (temp * NOMINALY[i]))) / 100;
+        if (puttedMoney >= coffee.getPrice()) {
+            for (int i = 0; ((i < NOMINALY.length) && (change > 0.00)); i++) {
+                if ((change >= NOMINALY[i])) {
+                    int temp = (int) Math.floor(change / NOMINALY[i]);
+                    wynik += NOMINALY[i] + " PLN x " + temp + "\n";
+                    change = (double) Math.round(100 * (change - (temp * NOMINALY[i]))) / 100;
+                } else {
+                    System.out.println("Give me more money!");
+                }
             }
-        }
-        System.out.println(wynik);
-    }
 
+            System.out.println(wynik);
+        } else {
+            System.out.println("Give me more money!");
+        }
+    }
 }

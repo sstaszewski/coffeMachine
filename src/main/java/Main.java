@@ -22,7 +22,7 @@ public class Main {
         Machine machine = new Machine();
         switch (choosenOption) {
             case (1):
-                client1.buyCoffee(machine,sWCoffee);
+                client1.buyCoffee(machine, sWCoffee);
                 machine.giveChange(sWCoffee);
                 break;
             case (2):
